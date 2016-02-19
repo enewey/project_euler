@@ -8,9 +8,10 @@ public class Euler7 {
 		ArrayList<Long> primes = new ArrayList<Long>();
 		primes.add((long) 2); //add some primes initially
 		primes.add((long) 3);
+		primes.add((long) 5);
 		primes.add((long) 7); 
 		primes.add((long) 11);
-		int nth = 4; //4 primes found so far
+		int nth = 5; //5 primes found so far
 		int i = 13; //starting test value
 		while (true) {
 			boolean p = true;
